@@ -5,6 +5,6 @@ fun main() {
    	val name = readLine()
    	val matricula = List(1) { Random.nextInt(0, 1000) }
    	
-  println("Bem-vindo à escola! Você está matriculado. Sua matrícula é $matricula.")
+  println("Bem-vindo à escola $name! Você está matriculado. Sua matrícula é $matricula.")
   
 }
